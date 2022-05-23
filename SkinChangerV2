@@ -647,12 +647,3 @@ LocalPlayer.SkinFolder.TFolder:Destroy()
 LocalPlayer.SkinFolder.CTFolder:Destroy()
 TClone.Parent = LocalPlayer.SkinFolder
 CTClone.Parent = LocalPlayer.SkinFolder
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForUSP"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForSCOUT"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForAK47"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForKNIFE"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForGLOVES"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForM4A4"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForAWP"))()
-
