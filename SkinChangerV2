@@ -589,7 +589,7 @@ local allSkins = {
    {'XM_Red'},
    {'XM_Spectrum'},
 }
-
+ 
 local isUnlocked
  
 local mt = getrawmetatable(game)
@@ -636,7 +636,6 @@ mt.__namecall = newcclosure(function(self, ...)
    end
    return oldNamecall(self, ...)
 end)
-
  
 setreadonly(mt, true)
  
@@ -647,3 +646,5 @@ LocalPlayer.SkinFolder.TFolder:Destroy()
 LocalPlayer.SkinFolder.CTFolder:Destroy()
 TClone.Parent = LocalPlayer.SkinFolder
 CTClone.Parent = LocalPlayer.SkinFolder
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TeoSee/CounterBlox/main/SkinForAWP"))()
