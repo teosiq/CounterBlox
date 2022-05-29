@@ -1,0 +1,5 @@
+for _,v in pairs(game.Players:GetPlayers()) do
+if v:IsA("Player") then
+wait (10)
+v:Kick("\nИДИ НАХУЙ\nНЕТ У МЕНЯ КФГ НА ЭТУ ЗАЛУПУ")
+end end
