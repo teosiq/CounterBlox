@@ -1,6 +1,0 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage");
-local ApplyGun = ReplicatedStorage.Events.ApplyGun;
-ApplyGun:FireServer({
-    Model = ReplicatedStorage.Hostage.Hostage,
-    Name = "USP"
-}, game.Players.LocalPlayer);
